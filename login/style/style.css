@@ -27,7 +27,7 @@ body {
 }
 
 form {
-  width: 90%;
+  width: 38%;
   min-width: 28.125rem;
   max-width: 35rem;
   background-color: #fff;
@@ -53,32 +53,35 @@ input {
   border-bottom-color: #bbb;
   padding: 0.75rem;
   margin: 0.5rem 0 2.5rem;
-
   outline: 0;
 }
 
 input:focus {
   border: 1px solid var(--colorPrimary);
+  transform: translateX(0.5rem);
 }
 
 legend {
-  padding: 1rem 0;
+  padding: 0.7rem 0;
   color: var(--colorPrimary);
   font-size: 1.8rem;
 }
 
 label {
   text-transform: uppercase;
+  color: #6c6c6c;
+  font-size: 0.8rem;
 }
 
 .btn {
   background-color: var(--colorPrimary);
   color: white;
   cursor: pointer;
-  padding: 0.6rem 1.5rem;
+  padding: 0.6rem 0.6rem;
   font-size: 1.2rem;
   border: none;
   text-transform: uppercase;
+  margin: 0;
 }
 
 .enviar {
