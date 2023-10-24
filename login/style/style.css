@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Belleza&family=Inter:wght@400;600&family=Roboto&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0;
+}
+
+:root {
+  --colorPrimary: #3a68b7;
+}
+
+html {
+  background-color: var(--colorPrimary);
+  font-family: "Roboto", sans-serif;
+  color: #292828;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+form {
+  width: 90%;
+  min-width: 28.125rem;
+  max-width: 35rem;
+  background-color: #fff;
+  box-shadow: -8px 1px 3px #0b2758;
+  padding: 1rem;
+}
+
+fieldset {
+  border: none;
+  padding: 1rem;
+  margin: 0;
+}
+
+label,
+input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input {
+  border: 2px solid transparent;
+  border-bottom-color: #bbb;
+  padding: 0.75rem;
+  margin: 0.5rem 0 2.5rem;
+
+  outline: 0;
+}
+
+input:focus {
+  border: 1px solid var(--colorPrimary);
+}
+
+legend {
+  padding: 1rem 0;
+  color: var(--colorPrimary);
+  font-size: 1.8rem;
+}
+
+label {
+  text-transform: uppercase;
+}
+
+.btn {
+  background-color: var(--colorPrimary);
+  color: white;
+  cursor: pointer;
+  padding: 0.6rem 1.5rem;
+  font-size: 1.2rem;
+  border: none;
+  text-transform: uppercase;
+}
+
+.enviar {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  align-items: baseline;
+}
+
+/*login*/
+
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn_novo {
+  background-color: transparent;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.btn_novo a {
+  text-decoration: none;
+  color: var(--colorPrimary);
+}
