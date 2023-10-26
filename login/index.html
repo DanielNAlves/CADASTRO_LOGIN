@@ -6,11 +6,11 @@
     <title>Login</title>
   </head>
   <body>
-    <form action="" autocomplete="on">
-      <fieldset>
-        <legend>Login</legend>
+    <form action="#" method="get" autocomplete="on" class="form">
+      <fieldset class="fieldset_form">
+        <legend class="title_form">Login</legend>
 
-        <label for="user">Usuário</label>
+        <label for="user" class="form__label">Usuário</label>
 
         <input
           type="text"
@@ -18,18 +18,27 @@
           name="user"
           required
           placeholder="Digite seu nome completo"
+          class="form__input"
         />
 
-        <label for="password">Senha</label>
-        <input type="password" name="password" id="password" required />
+        <label for="password" class="form__label">Senha</label>
+
+        <input
+          type="password"
+          id="password"
+          name="password"
+          required
+          placeholder="Digite seu nome completo"
+          class="form__input"
+        />
+
         <div class="enviar">
-          <button type="button" class="btn">
-            <a href="cadastro.html" target="_blank">Login</a>
-          </button>
-          <button type="submit" class="btn_novo">
-            <a href="cadastro.html" target="_blank">Cadastre-se</a>
-          </button>
-          <p><a href="#">Esqueci minha senha</a></p>
+          <input type="submit" class="btn btn__principal" value="Login" />
+
+          <a href="cadastro.html" target="_blank" class="btn btn__novo"
+            >Cadastre-se</a
+          >
+          <a href="#" class="action__form__aside">Esqueci minha senha</a>
         </div>
       </fieldset>
     </form>
