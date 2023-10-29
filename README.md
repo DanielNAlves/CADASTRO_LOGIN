@@ -3,7 +3,7 @@
 # SOBRE O PROJETO
 Desafio proposto pelo Curso Serfrontend, com foco na criação de formulário. 
 
-# Tecnologia Utilizadas
+# Tecnologias Utilizadas
 - HTML
 - CSS
 
